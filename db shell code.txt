@@ -1,0 +1,13 @@
+from proxymodelapp.models import *
+user1 = Google.objects.create_user(
+email = "googlemailone@gmail.com" , password = "password")
+user1.save()
+user2 = Google.objects.create_user(
+email = "googlemailtwo@gmail.com" , password = "password")
+user2.save()
+user3 = Fb.objects.create_user(
+email = "fbmailone@gmail.com" , password = "password")
+user3.save()
+user4 = Fb.objects.create_user(
+email = "fbmailtwo@gmail.com" , password = "password")
+user4.save()

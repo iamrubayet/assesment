@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Login as FB or google</h1>
+	<form method="post">
+	{% csrf_token %}
+	{{form.as_p}}
+	<br />
+	<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>
